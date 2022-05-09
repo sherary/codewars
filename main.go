@@ -1,7 +1,7 @@
 package main
 
 import (
-	"codewars/sorting"
+	"codewars/fundamentals"
 	"fmt"
 )
 
@@ -22,9 +22,30 @@ func main() {
 	// fmt.Println(fundamentals.SortNumbers([]int{1, 2, 10, 50, 5})) //[]int{1,2,5,10,50}
 	// fmt.Println(fundamentals.SortNumbers([]int{}))                //[]int{}
 	// fmt.Println(fundamentals.SortNumbers(nil))                    //nil
-	arr := []int{1, 39, 2, 9, 7, 54, 11}
-	fmt.Println(sorting.Bubble(arr))
-	fmt.Println(sorting.RecursiveBubble(arr, len(arr)))
-	fmt.Println(sorting.Insertion(arr))
-	fmt.Println(sorting.Selection(arr))
+	// fmt.Println(fundamentals.IsPalindrome("a"))     //true
+	// fmt.Println(fundamentals.IsPalindrome("aba"))   //true
+	// fmt.Println(fundamentals.IsPalindrome("Abba"))  //true
+	// fmt.Println(fundamentals.IsPalindrome("hello")) //false
+	// arr := []int{1, 39, 2, 9, 7, 54, 11}
+	// fmt.Println(sorting.Bubble(arr))
+	// fmt.Println(sorting.RecursiveBubble(arr, len(arr)))
+	// fmt.Println(sorting.Insertion(arr))
+	// fmt.Println(sorting.Selection(arr))
+	// fmt.Println(sorting.CountSort(arr))
+
+	// fmt.Println(fundamentals.MyString("a").IsUpperCase())                                                                     //).To(Equal(false))
+	// fmt.Println(fundamentals.MyString("abcdefghijklmnopqrstuvwxyz").IsUpperCase())                                            //).To(Equal(false))
+	// fmt.Println(fundamentals.MyString("ABCDEFGHIJKLMNOPQRSTUVWXYz").IsUpperCase())                                            //).To(Equal(false))
+	// fmt.Println(fundamentals.MyString("false").IsUpperCase())                                                                 //).To(Equal(false))
+	// fmt.Println(fundamentals.MyString("true").IsUpperCase())                                                                  //).To(Equal(false))
+	// fmt.Println(fundamentals.MyString("False").IsUpperCase())                                                                 //).To(Equal(false))
+	// fmt.Println(fundamentals.MyString("True").IsUpperCase())                                                                  //).To(Equal(false))
+	// fmt.Println(fundamentals.MyString("WHAT DOES THE FOX SAY").IsUpperCase())                                                 //).To(Equal(true))
+	// fmt.Println(fundamentals.MyString("HTML CSS JAVASCRIPT PYTHON C PERL LISP JAVA GO RUBY NODEJS RUST SCALA").IsUpperCase()) // ).To(Equal(true))
+
+	fmt.Println(fundamentals.AbbrevName("Sam Harris"))     //To(Equal("S.H"))
+	fmt.Println(fundamentals.AbbrevName("Patrick Feenan")) //To(Equal("P.F"))
+	fmt.Println(fundamentals.AbbrevName("Evan Cole"))      //To(Equal("E.C"))
+	fmt.Println(fundamentals.AbbrevName("P Favuzzi"))      //To(Equal("P.F"))
+	fmt.Println(fundamentals.AbbrevName("David Mendieta")) //To(Equal("D.M"))
 }
