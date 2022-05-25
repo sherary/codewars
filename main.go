@@ -43,9 +43,15 @@ func main() {
 	// fmt.Println(fundamentals.MyString("WHAT DOES THE FOX SAY").IsUpperCase())                                                 //).To(Equal(true))
 	// fmt.Println(fundamentals.MyString("HTML CSS JAVASCRIPT PYTHON C PERL LISP JAVA GO RUBY NODEJS RUST SCALA").IsUpperCase()) // ).To(Equal(true))
 
-	fmt.Println(fundamentals.AbbrevName("Sam Harris"))     //To(Equal("S.H"))
-	fmt.Println(fundamentals.AbbrevName("Patrick Feenan")) //To(Equal("P.F"))
-	fmt.Println(fundamentals.AbbrevName("Evan Cole"))      //To(Equal("E.C"))
-	fmt.Println(fundamentals.AbbrevName("P Favuzzi"))      //To(Equal("P.F"))
-	fmt.Println(fundamentals.AbbrevName("David Mendieta")) //To(Equal("D.M"))
+	// fmt.Println(fundamentals.AbbrevName("Sam Harris"))     //To(Equal("S.H"))
+	// fmt.Println(fundamentals.AbbrevName("Patrick Feenan")) //To(Equal("P.F"))
+	// fmt.Println(fundamentals.AbbrevName("Evan Cole"))      //To(Equal("E.C"))
+	// fmt.Println(fundamentals.AbbrevName("P Favuzzi"))      //To(Equal("P.F"))
+	// fmt.Println(fundamentals.AbbrevName("David Mendieta")) //To(Equal("D.M"))
+
+	fmt.Println(fundamentals.TwiceAsOld(36, 7))  //To(Equal(22))
+	fmt.Println(fundamentals.TwiceAsOld(55, 30)) //To(Equal(5))
+	fmt.Println(fundamentals.TwiceAsOld(42, 21)) //To(Equal(0))
+	fmt.Println(fundamentals.TwiceAsOld(22, 1))  //To(Equal(20))
+	fmt.Println(fundamentals.TwiceAsOld(29, 0))  //To(Equal(29))
 }
