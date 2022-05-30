@@ -49,9 +49,14 @@ func main() {
 	// fmt.Println(fundamentals.AbbrevName("P Favuzzi"))      //To(Equal("P.F"))
 	// fmt.Println(fundamentals.AbbrevName("David Mendieta")) //To(Equal("D.M"))
 
-	fmt.Println(fundamentals.TwiceAsOld(36, 7))  //To(Equal(22))
-	fmt.Println(fundamentals.TwiceAsOld(55, 30)) //To(Equal(5))
-	fmt.Println(fundamentals.TwiceAsOld(42, 21)) //To(Equal(0))
-	fmt.Println(fundamentals.TwiceAsOld(22, 1))  //To(Equal(20))
-	fmt.Println(fundamentals.TwiceAsOld(29, 0))  //To(Equal(29))
+	// fmt.Println(fundamentals.TwiceAsOld(36, 7))  //To(Equal(22))
+	// fmt.Println(fundamentals.TwiceAsOld(55, 30)) //To(Equal(5))
+	// fmt.Println(fundamentals.TwiceAsOld(42, 21)) //To(Equal(0))
+	// fmt.Println(fundamentals.TwiceAsOld(22, 1))  //To(Equal(20))
+	// fmt.Println(fundamentals.TwiceAsOld(29, 0))  //To(Equal(29))
+
+	fmt.Println(fundamentals.NbYear(1500, 5, 100, 5000)) //To(Equal(15))
+	// fmt.Println(fundamentals.NbYear(1500000, 2.5, 10000, 2000000))  //To(Equal(10))
+	// fmt.Println(fundamentals.NbYear(1500000, 0.25, 1000, 2000000))  //To(Equal(94))
+	// fmt.Println(fundamentals.NbYear(1500000, 0.25, -1000, 2000000)) //To(Equal(151))
 }
